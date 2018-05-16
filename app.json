@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "day1-1",
-    "description": "This project is really great.",
-    "slug": "day1-1",
+    "name": "Poo Falls",
+    "description": "Some silly game I made",
+    "slug": "poo-falls",
     "privacy": "public",
     "sdkVersion": "27.0.0",
     "platforms": ["ios", "android"],
@@ -17,9 +17,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }

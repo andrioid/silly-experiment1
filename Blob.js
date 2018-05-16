@@ -36,7 +36,7 @@ export class Blob extends React.Component {
     const initialPosition = Animated.timing(this.anim, {
       toValue: 1,
       easing: Easing.linear,
-      duration: 8000,
+      duration: 8000 / this.props.baseSpeed,
       useNativeDriver: true
     }).start(({ finished }) => {
       if (finished) {
